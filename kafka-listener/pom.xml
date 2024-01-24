@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.example</groupId>
-    <artifactId>kafka-listner</artifactId>
+    <artifactId>kafka-listener</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>kafka-listner</name>
     <description>kafka-listner</description>

@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>message-listner</artifactId>
+    <artifactId>message-listener</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -15,7 +15,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <modules>
-        <module>kafka-listner</module>
+        <module>kafka-listener</module>
+        <module>rabbit-mq-listener</module>
+        <module>active-mq-listener</module>
     </modules>
 
 </project>

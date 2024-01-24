@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.example</groupId>
-    <artifactId>rabbit-mq-listner</artifactId>
+    <artifactId>rabbit-mq-listener</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>rabbit-mq-listner</name>
     <description>rabbit-mq-listner</description>

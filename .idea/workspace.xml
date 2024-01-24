@@ -4,18 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="741309f0-4ec5-4a56-b246-3cf9c5a72ae2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-listner/src/main/java/org/example/kafkalistner/config/KafkaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-listner/src/main/java/org/example/kafkalistner/listner/KafkaListenerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="741309f0-4ec5-4a56-b246-3cf9c5a72ae2" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-listner/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-listener/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-listner/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-listener/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-listner/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-listener/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-listner/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-listener/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-listner/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-listener/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-listner/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-listener/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-listner/src/main/java/org/example/kafkalistner/KafkaListnerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-listener/src/main/java/org/example/kafkalistner/KafkaListnerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-listner/src/main/java/org/example/kafkalistner/config/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-listener/src/main/java/org/example/kafkalistner/config/KafkaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-listner/src/main/java/org/example/kafkalistner/listner/KafkaListenerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-listener/src/main/java/org/example/kafkalistner/listner/KafkaListenerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-listner/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-listener/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-listner/src/test/java/org/example/kafkalistner/KafkaListnerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-listener/src/test/java/org/example/kafkalistner/KafkaListnerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-mq-listner/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-listener/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-mq-listner/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-listener/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-mq-listner/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-listener/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-mq-listner/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-listener/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-mq-listner/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-listener/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-mq-listner/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-listener/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-mq-listner/src/main/java/org/example/rabbitmqlistner/RabbitMQListenerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-listener/src/main/java/org/example/rabbitmqlistner/RabbitMQListenerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-mq-listner/src/main/java/org/example/rabbitmqlistner/RabbitMqListnerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-listener/src/main/java/org/example/rabbitmqlistner/RabbitMqListnerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-mq-listner/src/main/java/org/example/rabbitmqlistner/config/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-listener/src/main/java/org/example/rabbitmqlistner/config/RabbitMQConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-mq-listner/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-listener/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-mq-listner/src/test/java/org/example/rabbitmqlistner/RabbitMqListnerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-listener/src/test/java/org/example/rabbitmqlistner/RabbitMqListnerApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,19 +82,36 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
+    "run.configurations.included.in.services": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager" selected="Spring Boot.KafkaListnerApplication">
+    <configuration name="ActiveMqListenerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="active-mq-listener" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.activemqlistener.ActiveMqListenerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KafkaListnerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="kafka-listner" />
+      <module name="kafka-listener" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.kafkalistner.KafkaListnerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="RabbitMqListnerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="rabbit-mq-listner" />
+      <module name="rabbit-mq-listener" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.rabbitmqlistner.RabbitMqListnerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,11 +136,25 @@
       <updated>1705732842773</updated>
       <workItem from="1705732843802" duration="2000" />
       <workItem from="1705852797866" duration="323000" />
-      <workItem from="1705853135208" duration="2029000" />
+      <workItem from="1705853135208" duration="2582000" />
+      <workItem from="1706108085134" duration="988000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1705855480647</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705855480647</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
