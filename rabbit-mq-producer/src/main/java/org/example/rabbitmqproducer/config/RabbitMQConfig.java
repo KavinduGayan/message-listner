@@ -1,5 +1,7 @@
 package org.example.rabbitmqproducer.config;
 
+import io.micrometer.core.instrument.MeterRegistry;
+import io.micrometer.core.instrument.simple.SimpleMeterRegistry;
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
@@ -39,5 +41,10 @@ public class RabbitMQConfig {
     @Bean
     public Queue myQueue() {
         return new Queue("myQueue");
+    }
+
+    @Bean
+    public MeterRegistry meterRegistry() {
+        return new SimpleMeterRegistry();
     }
 }
