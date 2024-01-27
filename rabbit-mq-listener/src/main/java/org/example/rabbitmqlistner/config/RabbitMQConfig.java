@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 public class RabbitMQConfig {
 
     private final String rabbitMQHost = "localhost"; // Change this to your RabbitMQ server host
-    private final String rabbitMQQueue = "your_queue_name"; // Change this to your RabbitMQ queue name
+    private final String rabbitMQQueue = "myQueue"; // Change this to your RabbitMQ queue name
 
     @Bean
     public ConnectionFactory connectionFactory() {

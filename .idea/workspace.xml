@@ -4,33 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="741309f0-4ec5-4a56-b246-3cf9c5a72ae2" name="Changes" comment="Initial commit">
+    <list default="true" id="741309f0-4ec5-4a56-b246-3cf9c5a72ae2" name="Changes" comment="Add active mq">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq-producer/src/main/java/org/example/rabbitmqproducer/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq-producer/src/main/java/org/example/rabbitmqproducer/producer/RabbitMQProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-listner/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-listener/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-listner/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-listener/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-listner/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-listener/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-listner/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-listener/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-listner/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-listener/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-listner/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-listener/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-listner/src/main/java/org/example/kafkalistner/KafkaListnerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-listener/src/main/java/org/example/kafkalistner/KafkaListnerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-listner/src/main/java/org/example/kafkalistner/config/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-listener/src/main/java/org/example/kafkalistner/config/KafkaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-listner/src/main/java/org/example/kafkalistner/listner/KafkaListenerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-listener/src/main/java/org/example/kafkalistner/listner/KafkaListenerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-listner/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-listener/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-listner/src/test/java/org/example/kafkalistner/KafkaListnerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-listener/src/test/java/org/example/kafkalistner/KafkaListnerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-mq-listner/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-listener/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-mq-listner/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-listener/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-mq-listner/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-listener/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-mq-listner/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-listener/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-mq-listner/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-listener/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-mq-listner/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-listener/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-mq-listner/src/main/java/org/example/rabbitmqlistner/RabbitMQListenerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-listener/src/main/java/org/example/rabbitmqlistner/RabbitMQListenerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-mq-listner/src/main/java/org/example/rabbitmqlistner/RabbitMqListnerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-listener/src/main/java/org/example/rabbitmqlistner/RabbitMqListnerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-mq-listner/src/main/java/org/example/rabbitmqlistner/config/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-listener/src/main/java/org/example/rabbitmqlistner/config/RabbitMQConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-mq-listner/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-listener/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-mq-listner/src/test/java/org/example/rabbitmqlistner/RabbitMqListnerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-listener/src/test/java/org/example/rabbitmqlistner/RabbitMqListnerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-mq-listener/src/main/java/org/example/rabbitmqlistner/RabbitMQListenerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-listener/src/main/java/org/example/rabbitmqlistner/service/RabbitMQListenerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-mq-listener/src/main/java/org/example/rabbitmqlistner/RabbitMqListnerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-listener/src/main/java/org/example/rabbitmqlistner/RabbitMqListnerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-mq-listener/src/main/java/org/example/rabbitmqlistner/config/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-listener/src/main/java/org/example/rabbitmqlistner/config/RabbitMQConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-mq-listener/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-listener/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,27 +49,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "17 (2)",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "run.configurations.included.in.services": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.RabbitMqListnerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.RabbitMqProducerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17 (2)&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -95,7 +85,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.KafkaListnerApplication">
+  <component name="RunManager" selected="Spring Boot.RabbitMqListnerApplication">
     <configuration name="ActiveMqListenerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="active-mq-listener" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.activemqlistener.ActiveMqListenerApplication" />
@@ -113,6 +103,13 @@
     <configuration name="RabbitMqListnerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="rabbit-mq-listener" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.rabbitmqlistner.RabbitMqListnerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitMqProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rabbit-mq-producer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.rabbitmqproducer.RabbitMqProducerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,7 +134,8 @@
       <workItem from="1705732843802" duration="2000" />
       <workItem from="1705852797866" duration="323000" />
       <workItem from="1705853135208" duration="2582000" />
-      <workItem from="1706108085134" duration="988000" />
+      <workItem from="1706108085134" duration="7846000" />
+      <workItem from="1706236171452" duration="30000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -147,14 +145,57 @@
       <option name="project" value="LOCAL" />
       <updated>1705855480647</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add active mq">
+      <option name="closed" value="true" />
+      <created>1706110652280</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706110652280</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add active mq">
+      <option name="closed" value="true" />
+      <created>1706110855217</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706110855217</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Add active mq" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add active mq" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/rabbit-mq-producer/src/main/java/org/example/rabbitmqproducer/producer/RabbitMQProducer.java</url>
+          <line>16</line>
+          <properties class="org.example.rabbitmqproducer.producer.RabbitMQProducer" method="sendMessage">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
