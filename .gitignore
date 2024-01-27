@@ -36,3 +36,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+/rabbit-mq-producer/.mvn/wrapper/maven-wrapper.properties
+/rabbit-mq-producer/mvnw
+/rabbit-mq-producer/mvnw.cmd
