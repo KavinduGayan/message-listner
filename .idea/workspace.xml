@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="741309f0-4ec5-4a56-b246-3cf9c5a72ae2" name="Changes" comment="Update: Add usage monitor">
-      <change afterPath="$PROJECT_DIR$/rabbit-mq-producer/src/main/java/org/example/rabbitmqproducer/controller/MessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbit-mq-producer/src/main/java/org/example/rabbitmqproducer/service/MonitoringComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq-producer/src/main/resources/logback-spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/docker-compose.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbit-mq-producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-producer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-mq-producer/src/main/java/org/example/rabbitmqproducer/RabbitMqProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-producer/src/main/java/org/example/rabbitmqproducer/RabbitMqProducerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-mq-producer/src/main/java/org/example/rabbitmqproducer/config/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-producer/src/main/java/org/example/rabbitmqproducer/config/RabbitMQConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbit-mq-producer/src/main/java/org/example/rabbitmqproducer/producer/RabbitMQProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-producer/src/main/java/org/example/rabbitmqproducer/producer/RabbitMQProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbit-mq-producer/src/main/java/org/example/rabbitmqproducer/service/MonitoringComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-producer/src/main/java/org/example/rabbitmqproducer/service/MonitoringComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbit-mq-producer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rabbit-mq-producer/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,35 +45,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.RabbitMqListnerApplication.executor": "Run",
-    "Docker.etc: Compose Deployment.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.RabbitMqListnerApplication.executor": "Run",
-    "Spring Boot.RabbitMqProducerApplication.executor": "Debug",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "17 (2)",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "run.configurations.included.in.services": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.RabbitMqListnerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.etc: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.RabbitMqListnerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.RabbitMqProducerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17 (2)&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -166,7 +164,8 @@
       <workItem from="1705853135208" duration="2582000" />
       <workItem from="1706108085134" duration="7846000" />
       <workItem from="1706236171452" duration="30000" />
-      <workItem from="1706372197873" duration="3827000" />
+      <workItem from="1706372197873" duration="7181000" />
+      <workItem from="1706499382091" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -216,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706372290192</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update: Add usage monitor">
+      <option name="closed" value="true" />
+      <created>1706376076374</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706376076374</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

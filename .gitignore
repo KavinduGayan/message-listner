@@ -39,3 +39,4 @@ build/
 /rabbit-mq-producer/.mvn/wrapper/maven-wrapper.properties
 /rabbit-mq-producer/mvnw
 /rabbit-mq-producer/mvnw.cmd
+/logs/metrics.log

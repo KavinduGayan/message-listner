@@ -1,5 +1,7 @@
 package org.example.rabbitmqproducer.service;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
@@ -12,6 +14,7 @@ import java.util.Date;
 @Component
 public class MonitoringComponent {
 
+    private final Logger logger = LoggerFactory.getLogger("metrics");
     private final Runtime runtime;
 
     @Autowired
@@ -25,9 +28,9 @@ public class MonitoringComponent {
         double cpuUsage = getCpuUsage();
 
         // Log the metrics to different log files or wherever you prefer
-        System.out.println("Time: " + new SimpleDateFormat("HH:mm:ss").format(new Date()));
-        System.out.println("Used Memory: " + usedMemory / (1024 * 1024) + " MB");
-        System.out.println("CPU Usage: " + cpuUsage + " %");
+        logger.info("Time: {}", new SimpleDateFormat("HH:mm:ss").format(new Date()));
+        logger.info("Used Memory: {} MB", usedMemory / (1024 * 1024));
+        logger.info("CPU Usage: {} %", cpuUsage);
     }
 
     /**

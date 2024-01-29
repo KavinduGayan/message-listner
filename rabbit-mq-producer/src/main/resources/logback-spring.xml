@@ -1,0 +1,33 @@
+<configuration>
+
+    <!-- Console Appender -->
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>%d{HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</Pattern>
+        </layout>
+    </appender>
+
+    <!-- File Appender - Metrics -->
+    <appender name="metrics" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/metrics.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/metrics.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>5</maxHistory>
+        </rollingPolicy>
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>%d{HH:mm:ss} %-10relative %msg%n</Pattern>
+        </layout>
+    </appender>
+
+
+    <!-- Logger for Metrics -->
+    <logger name="metrics" level="INFO">
+        <appender-ref ref="metrics" />
+    </logger>
+
+    <!-- Root Logger -->
+    <root level="INFO">
+        <appender-ref ref="console" />
+    </root>
+
+</configuration>
