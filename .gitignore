@@ -40,3 +40,8 @@ build/
 /rabbit-mq-producer/mvnw
 /rabbit-mq-producer/mvnw.cmd
 /logs/metrics.log
+/active-mq-producer/mvnw
+/active-mq-producer/mvnw.cmd
+/active-mq-producer/.mvn/wrapper/maven-wrapper.properties
+/active-mq-producer/.mvn/wrapper/maven-wrapper.jar
+/active-mq-producer/.mvn/wrapper/maven-wrapper.jar
