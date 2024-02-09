@@ -16,16 +16,16 @@ public class MessageController {
     private RabbitMQProducer rabbitMQProducer;
 
     /**
- * This method is responsible for receiving a message from the client and sending it to the RabbitMQ queue.
- *
- * @param message the message sent by the client
- * @return a response indicating that the message was received successfully
- */
-@PostMapping("/receive-message")
-@ResponseStatus(HttpStatus.OK)
-public Mono<String> receiveMessage(@RequestBody String message) {
-    rabbitMQProducer.sendMessage(message);
-    return Mono.just("Message received successfully");
-}
+     * This method is responsible for receiving a message from the client and sending it to the RabbitMQ queue.
+     *
+     * @param message the message sent by the client
+     * @return a response indicating that the message was received successfully
+     */
+    @PostMapping("/receive-message")
+    @ResponseStatus(HttpStatus.OK)
+    public Mono<String> receiveMessage(@RequestBody String message) {
+        rabbitMQProducer.sendMessage(message);
+        return Mono.just("Message received successfully");
+    }
 }
 
