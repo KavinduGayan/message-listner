@@ -45,3 +45,4 @@ build/
 /active-mq-producer/.mvn/wrapper/maven-wrapper.properties
 /active-mq-producer/.mvn/wrapper/maven-wrapper.jar
 /active-mq-producer/.mvn/wrapper/maven-wrapper.jar
+/out/

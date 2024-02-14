@@ -1,4 +1,4 @@
-package org.example.rabbitmqlistner.config;
+package org.example.rabbitmqlistener.config;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
