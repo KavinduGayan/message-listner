@@ -1,4 +1,4 @@
-package org.example.rabbitmqlistner;
+package org.example.rabbitmqlistener;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
