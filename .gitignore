@@ -46,3 +46,5 @@ build/
 /active-mq-producer/.mvn/wrapper/maven-wrapper.jar
 /active-mq-producer/.mvn/wrapper/maven-wrapper.jar
 /out/
+/logs/*
+/.idea/*
