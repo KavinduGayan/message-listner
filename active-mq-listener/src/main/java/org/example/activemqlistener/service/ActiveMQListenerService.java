@@ -8,6 +8,6 @@ public class ActiveMQListenerService {
     @JmsListener(destination = "myQueue")
     public void receiveMessage(String message) {
         System.out.println("Received Message from ActiveMQ: " + message);
-        // Add your business logic here
+        // business logic
     }
 }

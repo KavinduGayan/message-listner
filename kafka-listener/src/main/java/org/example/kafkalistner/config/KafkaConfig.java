@@ -16,7 +16,7 @@ import java.util.Map;
 @EnableKafka
 public class KafkaConfig {
 
-    private final String bootstrapServers = "localhost:9092"; // Change this to your Kafka bootstrap servers
+    private final String bootstrapServers = "localhost:9092";
 
     @Bean
     public ConsumerFactory<String, String> consumerFactory() {

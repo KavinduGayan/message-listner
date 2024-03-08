@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.amqp.RabbitProperties;
 
 @SpringBootApplication
-public class RabbitMqListnerApplication {
+public class RabbitMqListenerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(RabbitMqListnerApplication.class, args);
+        SpringApplication.run(RabbitMqListenerApplication.class, args);
     }
 
 }
