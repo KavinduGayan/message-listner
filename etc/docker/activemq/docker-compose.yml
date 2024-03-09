@@ -1,0 +1,20 @@
+version: '3.8'
+services:
+  activemq-listener:
+    env_file:
+      - .env
+    build:
+      context: .
+      dockerfile: listener.Dockerfile
+    ports:
+      - "7002:7002"
+    volumes:
+      - ${LOGGING_PATH_ACTIVEMQ_LISTENER}:/hms/iit/logs/activemq-listener
+  activemq-prodcuer:
+    build:
+      context: .
+      dockerfile: producer.Dockerfile
+    ports:
+      - "7001:7001"
+    volumes:
+      - ${LOGGING_PATH_ACTIVEMQ_PRODUCER}:/hms/iit/logs/activemq-producer

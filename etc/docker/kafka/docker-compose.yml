@@ -1,0 +1,20 @@
+version: '3.8'
+services:
+  kafka-listener:
+    env_file:
+      - .env
+    build:
+      context: .  # Path to the Dockerfile directory
+      dockerfile: listener.Dockerfile  # Name of the Dockerfile
+    ports:
+      - "7004:7004"
+    volumes:
+      - ${LOGGING_PATH_KAFKA_LISTENER}:/hms/iit/logs/kafka-listener
+  kafka-prodcuer:
+    build:
+      context: .  # Path to the Dockerfile directory
+      dockerfile: producer.Dockerfile  # Name of the Dockerfile
+    ports:
+      - "7003:7003"
+    volumes:
+      - ${LOGGING_PATH_KAFKA_PRODUCER}:/hms/iit/logs/kafka-producer

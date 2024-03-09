@@ -1,0 +1,20 @@
+version: '3.8'
+services:
+  rabbitmq-listener:
+    env_file:
+      - .env
+    build:
+      context: .
+      dockerfile: listener.Dockerfile
+    ports:
+      - "8181:8181"
+    volumes:
+      - ${LOGGING_PATH_RABBITMQ_LISTENER}:/hms/iit/logs/rabbitmq-listener
+  rabbitmq-prodcuer:
+    build:
+      context: .
+      dockerfile: producer.Dockerfile
+    ports:
+      - "8585:8585"
+    volumes:
+      - ${LOGGING_PATH_RABBITMQ_PRODUCER}:/hms/iit/logs/rabbitmq-producer
