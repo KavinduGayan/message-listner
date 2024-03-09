@@ -11,7 +11,7 @@
     <appender name="metrics" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>logs/metrics.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>./logs/metrics.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <fileNamePattern>./logs/kafka-metrics-producer.%d{yyyy-MM-dd}.log</fileNamePattern>
             <maxHistory>5</maxHistory>
         </rollingPolicy>
         <layout class="ch.qos.logback.classic.PatternLayout">
