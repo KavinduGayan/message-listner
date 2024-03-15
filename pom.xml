@@ -34,8 +34,6 @@
     <module>active-mq-listener</module>
             
     <module>active-mq-producer</module>
-          
-    <module>my-project</module>
       
   </modules>
   

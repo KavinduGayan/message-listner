@@ -15,7 +15,7 @@
             <maxHistory>5</maxHistory>
         </rollingPolicy>
         <layout class="ch.qos.logback.classic.PatternLayout">
-            <Pattern>%d{HH:mm:ss} %-10relative %msg%n</Pattern>
+            <Pattern>%m%n</Pattern>
         </layout>
     </appender>
 

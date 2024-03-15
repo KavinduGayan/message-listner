@@ -16,6 +16,7 @@ public class MonitoringComponent {
 
     private final Logger logger = LoggerFactory.getLogger("metrics");
     private final Runtime runtime;
+    private int loopCount = 0;
 
     @Autowired
     public MonitoringComponent() {
@@ -26,11 +27,11 @@ public class MonitoringComponent {
     public void logMetrics() {
         long usedMemory = runtime.totalMemory() - runtime.freeMemory();
         double cpuUsage = getCpuUsage();
-
-        // Log the metrics to different log files or wherever you prefer
-        logger.info("Time: {}", new SimpleDateFormat("HH:mm:ss").format(new Date()));
-        logger.info("Used Memory: {} MB", usedMemory / (1024 * 1024));
-        logger.info("CPU Usage: {} %", cpuUsage);
+        if (loopCount % 5 == 0) {
+            logger.info("Time\t Used Memory\t CPU Usage\t");
+        }
+        logger.info(new SimpleDateFormat("HH:mm:ss").format(new Date()) + "\t" + usedMemory / (1024 * 1024) + "\t" + cpuUsage);
+        loopCount++;
     }
 
     /**
