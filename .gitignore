@@ -49,3 +49,4 @@ build/
 /logs/*
 /.idea/*
 /.idea/
+/rabbit-mq-producer/logs/metrics.2024-03-15.log
