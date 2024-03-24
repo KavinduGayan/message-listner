@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  rabbitmq:
+    image: "rabbitmq:3.9.29-management"
+    ports:
+      - "5672:5672"  # RabbitMQ default port
+      - "15672:15672"  # RabbitMQ management plugin port
+    environment:
+      RABBITMQ_DEFAULT_USER: "guest"
+      RABBITMQ_DEFAULT_PASS: "guest"
+  rabbitmq-listener:
+    env_file:
+      - .env
+    image: "rabbitmq-listener:${LISTENER_TAG}"
+#    build:
+#      context: .
+#      dockerfile: listener.Dockerfile
+    ports:
+      - "8181:8181"
+    volumes:
+      - ${LOGGING_PATH_RABBITMQ_LISTENER}:/hms/iit/logs/rabbitmq-listener
+    environment:
+      - SPRING_RABBITMQ_HOST=172.17.0.1
+    depends_on:
+      - rabbitmq
+  rabbitmq-producer:
+    env_file:
+      - .env
+    image: "rabbitmq-producer:${PRODUCER_TAG}"
+#    build:
+#      context: .
+#      dockerfile: producer.Dockerfile
+    ports:
+      - "8585:8585"
+    volumes:
+      - ${LOGGING_PATH_RABBITMQ_PRODUCER}:/hms/iit/logs/rabbitmq-producer
+    environment:
+      - SPRING_RABBITMQ_HOST=172.17.0.1
+    depends_on:
+      - rabbitmq
