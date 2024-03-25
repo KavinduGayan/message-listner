@@ -3,6 +3,7 @@ version: '3.8'
 services:
   rabbitmq:
     image: "rabbitmq:3.9.29-management"
+    container_name: rabbitmq
     ports:
       - "5672:5672"  # RabbitMQ default port
       - "15672:15672"  # RabbitMQ management plugin port
@@ -13,6 +14,7 @@ services:
     env_file:
       - .env
     image: "rabbitmq-listener:${LISTENER_TAG}"
+    container_name: rabbitmq-listener
 #    build:
 #      context: .
 #      dockerfile: listener.Dockerfile
@@ -28,6 +30,7 @@ services:
     env_file:
       - .env
     image: "rabbitmq-producer:${PRODUCER_TAG}"
+    container_name: rabbitmq-producer
 #    build:
 #      context: .
 #      dockerfile: producer.Dockerfile

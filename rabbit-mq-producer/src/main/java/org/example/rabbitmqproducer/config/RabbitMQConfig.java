@@ -25,6 +25,12 @@ public class RabbitMQConfig {
     @Value("${spring.rabbitmq.password}")
     private String rabbitMQPassword;
 
+    @Value("${queue.type.persistent}")
+    private boolean persistentSession;
+
+    @Value("${queue.name}")
+    private String queueName;
+
     @Bean
     public ConnectionFactory connectionFactory() {
         CachingConnectionFactory connectionFactory = new CachingConnectionFactory(rabbitMQHost, rabbitMQPort);
@@ -40,7 +46,7 @@ public class RabbitMQConfig {
 
     @Bean
     public Queue myQueue() {
-        return new Queue("myQueue");
+        return new Queue(queueName, persistentSession);
     }
 
     @Bean
